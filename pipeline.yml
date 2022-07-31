@@ -4,7 +4,7 @@ resources:
     type: git
     source:
       uri: https://github.com/juan-bolivar/concurse-tutorial.git
-      branch: master 
+      branch: main 
 
 jobs:
   - name: job-pass-files
