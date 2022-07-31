@@ -6,6 +6,7 @@ resources:
       uri: https://github.com/juan-bolivar/concurse-tutorial.git
       branch: main 
 
+      
 jobs:
   - name: job-pass-files
     public: true
@@ -35,6 +36,8 @@ jobs:
 
           inputs:
             - name: resource-tutorial
+            - name: some-files
+          outputs:
             - name: some-files
 
           run:
