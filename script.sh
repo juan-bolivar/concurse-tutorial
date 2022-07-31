@@ -1,6 +1,6 @@
 #!/bin/bash
 
 
-mkdir salida
-mkdir salida2
-echo 'Hello' > temp.out
+touch some-files/salida
+touch some-files/salida2
+echo 'Hello' > some-files/temp.out

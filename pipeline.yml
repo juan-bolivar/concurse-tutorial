@@ -20,10 +20,9 @@ jobs:
             source: {repository: ubuntu}
 
           inputs:
-            - name: resource-tutorial
+            - name: resource-tutoria
           outputs:
             - name: some-files
-
           run:
             path: resource-tutorial/script.sh 
 
